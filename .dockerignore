@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+.claude
+.qoder
+construction_safety_env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.db
+.ipynb_checkpoints
+.azure
+.github
+*.log
