@@ -6,7 +6,7 @@
 ### Autonomous Construction Safety Agent
 **Powered locally by AMD Lemonade SDK** (`http://localhost:13305/v1`)
 
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?logo=youtube&logoColor=white)](https://youtu.be/rHClo1KNGXQ)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?logo=youtube&logoColor=white)](https://youtu.be/I35_YrRU-Tg)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![AMD Lemonade SDK](https://img.shields.io/badge/AMD-Lemonade_SDK_Local_Edge-ED1C24?logo=amd&logoColor=white)](https://github.com/lemonade-sdk/lemonade)
 [![Hardware](https://img.shields.io/badge/Hardware-AMD_Ryzen™_AI_|_ROCm_|_Vulkan-black)](https://www.amd.com/en/products/processors/laptop/ryzen.html)
@@ -25,7 +25,7 @@
 - 🔒 **Data Privacy:** 100% On-Device & Zero Egress
 - 🦺 **Domain:** OSHA 29 CFR 1926 Safety & Incident Audits
 - 📜 **License:** Apache 2.0 Open Source
-- 🎥 **Video Demo:** [Watch on YouTube](https://youtu.be/rHClo1KNGXQ)
+- 🎥 **Video Demo:** [Watch on YouTube](https://youtu.be/I35_YrRU-Tg)
 
 </td>
 </tr>
@@ -241,7 +241,7 @@ We benchmarked SafeSite-AI operating via the local **AMD Lemonade SDK** against 
 ## 🎬 Video Demonstration
 
 Watch the complete demonstration on YouTube:  
-▶️ **[https://youtu.be/rHClo1KNGXQ](https://youtu.be/rHClo1KNGXQ)**
+▶️ **[https://youtu.be/I35_YrRU-Tg](https://youtu.be/I35_YrRU-Tg)**
 
 The video demonstrates the complete offline edge workflow, showcasing the absence of cloud latency, local AMD Lemonade SDK inference, deterministic OSHA 1926 tool calling, and automated incident report generation. A step-by-step production script is also available in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
