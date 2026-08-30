@@ -81,39 +81,43 @@ Construction is one of the most hazardous industries globally, accounting for ov
 ```mermaid
 graph TD
     subgraph Edge_Perception ["Stage 1: Local Edge Perception"]
-        A[Site Camera / Video Feed] --> B[YOLOv11n Object Detector]
-        B --> C[Spatial Proximity & Clearance Engine]
-        C --> D[Grounded Scene Descriptor]
+        A["Site Camera / Video Stream"] --> B["YOLOv11n Object Detector"]
+        B --> C["Spatial Proximity & Clearance Engine"]
+        C --> D["Grounded Scene Descriptor"]
     end
 
     subgraph Lemonade_SDK ["AMD Lemonade SDK Local Server (Port 13305)"]
-        E[OpenAI-Compatible REST API<br/><code>http://localhost:13305/v1</code>]
-        F[AMD Ryzen™ AI NPU / ROCm / Vulkan Acceleration]
-        G[Local Multimodal Models<br/>Qwen2.5-VL / Gemma-3 / Llama 3.2]
+        E["OpenAI-Compatible Local Endpoint<br/>http://localhost:13305/v1"]
+        F["AMD Ryzen™ AI NPU / ROCm / Vulkan Acceleration"]
+        G["Local Multimodal Models<br/>Qwen2.5-VL / Gemma-3 / Llama 3.2"]
         E --- F
         F --- G
     end
 
     subgraph Agent_Core ["Stage 2: Autonomous AI Safety Agent"]
-        D --> H[Prompt Engineer & Context Injector]
-        H --> I[Safety Reasoning Loop]
+        D --> H["Prompt Engineer & Context Injector"]
+        H --> I["Safety Reasoning Loop"]
         I <--> E
         
         subgraph Tool_Suite ["Deterministic Local Tools"]
-            T1[search_osha_regulations]
-            T2[calculate_danger_zone]
-            T3[audit_ppe_compliance]
-            T4[dispatch_site_alert]
-            T5[compile_incident_report]
+            T1["search_osha_regulations"]
+            T2["calculate_danger_zone"]
+            T3["audit_ppe_compliance"]
+            T4["dispatch_site_alert"]
+            T5["compile_incident_report"]
         end
         
-        I <--> Tool_Suite
+        I --> T1
+        I --> T2
+        I --> T3
+        I --> T4
+        I --> T5
     end
 
     subgraph Output_Layer ["Action & Presentation Layer"]
-        I --> J[Streamlit Safety Dashboard]
-        I --> K[Automated OSHA Incident Report (.md)]
-        I --> L[Sub-Second Edge Audible/Visual Strobe Alert]
+        I --> J["Streamlit Safety Dashboard"]
+        I --> K["Automated OSHA Incident Report (.md)"]
+        I --> L["Sub-Second Edge Audible/Visual Alert"]
     end
 ```
 
