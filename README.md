@@ -1,6 +1,7 @@
 # 🦺 SafeSite-AI: Autonomous Construction Safety Agent
 ### Powered locally by **AMD Lemonade SDK** (OpenAI-Compatible Local Edge Inference at `http://localhost:13305/v1`)
 
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?logo=youtube&logoColor=white)](https://youtu.be/rHClo1KNGXQ)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![AMD Lemonade SDK](https://img.shields.io/badge/AMD-Lemonade_SDK_Local_Edge-ED1C24?logo=amd&logoColor=white)](https://github.com/lemonade-sdk/lemonade)
 [![Hardware](https://img.shields.io/badge/Hardware-AMD_Ryzen™_AI_|_ROCm_|_Vulkan-black)](https://www.amd.com/en/products/processors/laptop/ryzen.html)
@@ -20,7 +21,7 @@
 5. [💻 Hardware Requirements & Sizing Matrix](#-hardware-requirements--sizing-matrix)
 6. [🚀 Quickstart & Installation Guide](#-quickstart--installation-guide)
 7. [📊 Quantitative Performance & Benchmark Evaluation](#-quantitative-performance--benchmark-evaluation)
-8. [🎬 Video Demonstration Outline](#-video-demonstration-outline)
+8. [🎬 Video Demonstration](#-video-demonstration)
 9. [⚖️ Challenge Evaluation Alignment](#️-challenge-evaluation-alignment)
 10. [📜 Open-Source License & Community Contribution](#-open-source-license--community-contribution)
 
@@ -213,16 +214,12 @@ We benchmarked SafeSite-AI operating via the local **AMD Lemonade SDK** against 
 
 ---
 
-## 🎬 Video Demonstration Outline
+## 🎬 Video Demonstration
 
-A full YouTube video script is provided in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
+Watch the complete demonstration on YouTube:  
+▶️ **[https://youtu.be/rHClo1KNGXQ](https://youtu.be/rHClo1KNGXQ)**
 
-### Video Highlights:
-- **Act 1 (0:00 - 0:45):** The Construction Reality — Cloud AI failures on remote sites.
-- **Act 2 (0:45 - 1:45):** Local Architecture — Showing AMD Lemonade SDK running at `http://localhost:13305/v1`.
-- **Act 3 (1:45 - 3:15):** Real-Time Hazard Assessment — Sub-second YOLOv11 + Lemonade VLM detection.
-- **Act 4 (3:15 - 4:15):** Autonomous Agent & Tools — Live OSHA standard queries, danger zone math, and incident report generation.
-- **Act 5 (4:15 - 5:00):** Video Stream Analysis & Open-Source Wrap-Up.
+The video demonstrates the complete offline edge workflow, showcasing the absence of cloud latency, local AMD Lemonade SDK inference, deterministic OSHA 1926 tool calling, and automated incident report generation. A step-by-step production script is also available in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
 ---
 
