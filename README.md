@@ -1,15 +1,35 @@
-# 🦺 SafeSite-AI: Autonomous Construction Safety Agent
-### Powered locally by **AMD Lemonade SDK** (OpenAI-Compatible Local Edge Inference at `http://localhost:13305/v1`)
+<table>
+<tr>
+<td width="62%" valign="top">
+
+# 🦺 SafeSite-AI
+### Autonomous Construction Safety Agent
+**Powered locally by AMD Lemonade SDK** (`http://localhost:13305/v1`)
 
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?logo=youtube&logoColor=white)](https://youtu.be/rHClo1KNGXQ)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![AMD Lemonade SDK](https://img.shields.io/badge/AMD-Lemonade_SDK_Local_Edge-ED1C24?logo=amd&logoColor=white)](https://github.com/lemonade-sdk/lemonade)
 [![Hardware](https://img.shields.io/badge/Hardware-AMD_Ryzen™_AI_|_ROCm_|_Vulkan-black)](https://www.amd.com/en/products/processors/laptop/ryzen.html)
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![UI](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
 > **Submission for the AMD Lemonade Developer Challenge**  
 > An open-source, edge-native AI safety supervisor that eliminates cloud latency, protects jobsite privacy, and automates OSHA 29 CFR 1926 compliance auditing in harsh, bandwidth-constrained construction environments.
+
+</td>
+<td width="38%" valign="top">
+
+### 📌 About SafeSite-AI
+- 🏆 **Event:** AMD Lemonade Developer Challenge
+- 💻 **Inference Server:** AMD Lemonade SDK (`localhost:13305`)
+- ⚡ **Edge Acceleration:** AMD Ryzen™ AI NPU / ROCm / Vulkan
+- ⏱️ **Turnaround:** ~240 ms (16x faster than cloud)
+- 🔒 **Data Privacy:** 100% On-Device & Zero Egress
+- 🦺 **Domain:** OSHA 29 CFR 1926 Safety & Incident Audits
+- 📜 **License:** Apache 2.0 Open Source
+- 🎥 **Video Demo:** [Watch on YouTube](https://youtu.be/rHClo1KNGXQ)
+
+</td>
+</tr>
+</table>
 
 ---
 
